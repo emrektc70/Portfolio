@@ -390,10 +390,10 @@ section .title::after {
   width: 70%;
 }
 .skills-content .right .mysql::before {
-  width: 10%;
+  width: 3%;
 }
 .skills-content .right .Javascript::before {
-  width: 40%;
+  width: 5%;
 }
 .skills-content .right .Adminer::before {
   width: 60%;
