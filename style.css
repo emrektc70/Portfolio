@@ -276,7 +276,7 @@ section .title::after {
 .services .serv-content .card {
   width: calc(33% - 25px);
   background: #222;
-  min-height: 350px;
+  height: 400px;
   text-align: center;
   border-radius: 10px;
   padding: 50px 25px;
@@ -594,6 +594,9 @@ footer span a:hover {
     width: 400px;
     object-fit: cover;
   }
+  .services .serv-content .card {
+           height: 480px;
+   }
 }
 @media (max-width: 991px) {
   .max-width {
@@ -693,4 +696,5 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+ 
 }
