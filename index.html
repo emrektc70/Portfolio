@@ -1,320 +1,329 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  </head>
-  <body>
-    <div class="scroll-up-btn">
-      <i class="fas fa-angle-up"></i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">Portfo<span>lio.</span></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home"><i class="fas fa-home"></i>Accueil</i></a></li>
+        <li><a href="#about"><i class="fas fa-user"></i>A propos </a></li>
+        <li><a href="#services"><i class="fas fa-edit"></i>Services </a></li>
+        <li><a href="#skills"><i class="fas fa-universal-access"></i>Compétences </a></li>
+        <li><a href="#contact"><i class="fas fa-id-badge"></i>Contact </a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
-    <nav class="navbar">
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">Portfo<span>lio.</span></a>
+  </nav>
+
+  <!-- Commencement de la partie accueil -->
+
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+
+        <div class="text-1"><span>Bonjour </span>, Tout le monde</div>
+        <div class="text-2">Emre Katirci</div>
+        <div class="text-3">
+          <span class="typing">développeur Front-end </span>
         </div>
-        <ul class="menu">
-          <li><a href="#home" ><i class="fas fa-home"></i>Accueil</i></a></li>
-          <li><a href="#about"><i class="fas fa-user"></i>A propos </a></li>
-          <li><a href="#services"><i class="fas fa-edit"></i>Services </a></li>
-          <li><a href="#skills"><i class="fas fa-universal-access"></i>Compétences </a></li>
-          <li><a href="#contact"><i class="fas fa-id-badge"></i>Contact </a></li>
-        </ul>
-        <div class="menu-btn" >
-          <i class="fas fa-bars"></i>
+        <a href="https://www.linkedin.com/in/emre-katirci-b5608b1b4/">Suivez-moi sur linkedin</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- partie a propos -->>
+
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">A propos de moi</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/debut.jpg" alt="" />
+        </div>
+        <div class="colmun right">
+          <div class="text">Passionné <span class="typing-2">du developpement </span></div>
+          <p>
+            Je m'appelle Emre Katirci, actuellement en BTS informatique SIO spécialité SLAM, j'ai intégré le lycée
+            Simone-Weil en 2020 après l'obtention de mon bac STI2D spécialité EE (énergie environnement). Durant mes
+            deux années, j'ai acquis des compétences nécessaires pour travailler dans le développement web.
+            Actuellement, à la recherche d'un patron pour une licence en alternance.
+          </p>
+          <a href="cv.pdf">VOIR MON CV !</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <!-- Commencement de la partie accueil -->
+  <!-- partie services  -->
 
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          
-          <div class="text-1"><span>Bonjour </span>, Tout le monde</div>
-          <div class="text-2">Emre Katirci</div>
-          <div class="text-3">
-          <span class="typing">Étudiant en BTS informatique SIO </span>
-          </div>
-          <a href="https://www.linkedin.com/in/emre-katirci-b5608b1b4/">Suivez-moi sur <i class="fab fa-linkedin"></i></a>
-        </div>
-        
-      </div>
-    </section>
-
-    <!-- partie a propos -->>
-
-    <section class="about" id="about">
-      <div class="max-width">
-        <h2 class="title">A propos de moi</h2>
-        <div class="about-content">
-          <div class="column left">
-            <img src="images/debut.jpg" alt="" />
-          </div>
-          <div class="colmun right">
-            <div class="text">Passionné  <span class="typing-2">du developpement </span></div>
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">Mes Services</h2>
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-paint-brush"> </i>
+            <div class="text">Conception</div>
             <p>
-              Je m'appelle Emre Katirci, actuellement en BTS informatique SIO spécialité SLAM, j'ai intégré le lycée Simone-Weil en 2020 après l'obtention de mon bac STI2D spécialité EE (énergie environnement). Durant mes deux années, j'ai acquis des compétences nécessaires pour travailler dans le développement web. Actuellement, à la recherche d'un patron pour une licence en alternance.
+              <br>Création de maquette avec Figma <br>
+              <br>Cahier des charges <br>
+              <br>Création de logo<br>
+              <br>Diagramme<br>
+
             </p>
-            <a href="cv.pdf">VOIR MON CV !</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- partie services  -->
-
-    <section class="services" id="services">
-      <div class="max-width">
-        <h2 class="title">Mes Services</h2>
-        <div class="serv-content">
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-paint-brush"> </i>
-              <div class="text">Début de projet</div>
-              <p>
-                <br>-Création de maquette <br>
-                <br>-Cahier des charges <br>
-                <br>-Création de logo<br>
-
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-chart-line"> </i>
-              <div class="text">Analyse</div>
-              <p>
-                <br>-Diagramme de cas d'tilisation <br>
-                <br>-Schéma entité association <br>
-                <br>-Base de données
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-code"> </i>
-              <div class="text">Création de site </div>
-              <p>
-                <br>-Création de site web (HTML, CSS, Javascript)<br>
-                <br>-Création de site web avec le CMS Wordpress<br>
-                
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- compétence  section -->
-
-    <section class="skills" id="skills">
-      <div class="max-width">
-        <h2 class="title">Mes compétences</h2>
-        <div class="skills-content">
-          <div class="column left">
-            <div class="text" style="color: crimson"><h2>Mes compétences</h2></div>
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"> </i>
+            <div class="text">Création de site </div>
             <p>
-              Au cours de mes deux ans d'études, j'ai pu acquérir des connaissances en php, nous avons travaillé sur deux projets, le
-              premier était un logiciel qui permettait de mettre et affiché des tickets et le deuxième projet était un logiciel
-              d'administration. Pendant ce temps, j'ai réalisé des projets moi-même notamment une application de chat qui était
-              réalisé avec du React Native. <br>
+              <br>-Création de site web (HTML, CSS, Javascript)<br>
+              <br>-Création de site web avec le CMS Wordpress<br>
             </p>
-            <div class="text" style="color: crimson"><h1><br>Mes experiences</h1> </div>
-            <p>Durant ma formation, j'ai eu deux stages qui m'ont permis d'acquérir des connaissances dans le monde du travail
-            cependant, mon premier stage était chez BF-AUTO38 pour lequel je devais réaliser un site web avec wordpress et mon
-            deuxième stage était chez FORMATOP pour lequel je devais réaliser un site web qui permettait aux utilisateurs de faire
-            des diagnostics.</p>
-          </div>
-          
-          <div class="column right">
-            <div class="bars">
-              <div class="info">
-                <span>HTML</span>
-                <span>65%</span>
-              </div>
-              <div class="line html"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>CSS</span>
-                <span>50%</span>
-              </div>
-              <div class="line css"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>WORDPRESS</span>
-                <span>70%</span>
-              </div>
-              <div class="line wordpress"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>MYSQL</span>
-                <span>30%</span>
-              </div>
-              <div class="line mysql"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>JavaScript</span>
-                <span>50%</span>
-              </div>
-              <div class="line Javascript"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>Adminer</span>
-                <span>60%</span>
-              </div>
-              <div class="line Adminer"></div>
-            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Partie Porjet -->
 
-    <section class="teams" id="teams">
-      <div class="max-width">
-        <h2 class="title">Mes projets</h2>
-        <div class="carousel owl-carousel">
+      </div>
+    </div>
+  </section>
+
+  <!-- compétence  section -->
+
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">Mes compétences</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text" style="color: crimson">
+            <h2>Mes compétences</h2>
+          </div>
+          <p>
+            Depuis le début de mon parcours, j'ai réalisé plusieurs projets, que ce soit en entreprise ou des projets
+            personnels. Je
+            suis capable de créer des sites web en utilisant React.js, et j'ai notamment travaillé avec des API, des
+            reducers, des
+            middlewares, le tout en React.js. De plus, j'ai également de l'expérience avec TypeScript. <br>
+          </p>
+          <div class="text" style="color: crimson">
+            <h1><br>Mes experiences</h1>
+          </div>
+          <p>J'ai obtenu mon BTS SIO, puis je me suis orienté vers un bachelor en conception et développement
+            d'applications, où j'ai
+            effectué une alternance d'une durée d'un an. Cette expérience m'a apporté de nombreuses compétences et une
+            solide
+            expertise dans ce domaine."</p>
+        </div>
+
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>100%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS/SCSS</span>
+              <span>90%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>WORDPRESS</span>
+              <span>90%</span>
+            </div>
+            <div class="line wordpress"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>MYSQL</span>
+              <span>60%</span>
+            </div>
+            <div class="line mysql"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="line Javascript"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>React js</span>
+              <span>90%</span>
+            </div>
+            <div class="line React"></div>
+          </div>
+          <!--     <div class="bars">
+            <div class="info">
+              <span>Adminer</span>
+              <span>60%</span>
+            </div>
+            <div class="line Adminer"></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Partie Porjet -->
+
+  <section class="teams" id="teams">
+    <div class="max-width">
+      <h2 class="title">Mes projets</h2>
+      <div class="carousel owl-carousel">
+        <a href="https://ktccar.vercel.app" target="_blank" style="text-decoration: none; color: inherit;">
+          <div class="card">
+            <div class="box">
+              <img src="images/KTCCAR.png" alt="" />
+              <div class="text">KTCCAR</div>
+              <p>
+                KTCCar est un projet que j'ai réalisé en partie full stack pour mon projet de fin d'année. Du côté
+                back-end, j'ai
+                utilisé Nest.js, tandis que du côté front-end, j'ai utilisé React.js avec TypeScript. Ensuite, j'ai
+                hébergé ces deux parties.
+            </div>
+          </div>
+        </a>
+        <a href="https://box.tosho.fr/" target="_blank" style="text-decoration: none; color: inherit;">
+          <div class="card">
+            <div class="box">
+              <img src="images/home2.webp" alt="" />
+              <div class="text">Toshobox</div>
+              <p>
+                "En collaboration avec d'autres développeurs, j'ai fait partie de l'équipe de développement qui a
+                contribué au projet
+                Toshobox. J'étais principalement responsable de la partie front-end
+            </div>
+          </div>
+        </a>
+        <a href="https://praticien.orgavita.fr" target="_blank" style="text-decoration: none; color: inherit;">
           <div class="card">
             <div class="box">
               <img src="images/react.jpeg" alt="" />
-              <di class="text">Application de Chat </di>
+              <div class="text">Orgavita</div>
               <p>
-                En suivant des tutos sur YouTube, j'ai réalisé une petite application qui permet de créer un compte. Une fois le compte créé, nous pouvons discuter avec nos amis.
-              </p>
+                Maintenance du logiciel Orgavita, notamment amélioration et correction des bugs côté front-end. </p>
             </div>
           </div>
-          <div class="card">
-            <div class="box">
-              <img src="images/logo.jpg" alt="" />
-              <div class="text">Gestion de Frais </div>
-              <p>
-                En deuxième année de ma scolarité, je devais travailler avec une application qui s'appelle GSB, notre but été d'être capable de faire des modifications selon la demande de notre professeur.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img src="images/Ticketing.png" alt="" />
-              <di class="text">Application de Ticket </di>
-              <p>
-                Première année de ma formation, nous avons travaillé sur une application de ticketing qui permet de mettre et supprimer des tickets, qui était développé en php sql.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img src="images/logost.png" alt="" />
-              <di class="text">Simplydiag </di>
-              <p>
-                Pour ma deuxième année de stage, je devais réaliser un site web pour l'entreprise Formatop et j'ai réussi à faire le site web demandé par mon tuteur, qui était développé avec Wordpress. 
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img src="images/algo.jpg" alt="" />
-              <di class="text">Algorithme </di>
-              <p>
-                <br>
-                Dans ma formation, nous avons fait de l'algorithme avec le langage python, puis ensuite, je me suis entraîné tout seul avec des tutos pour l'algorithme en JavaScript. 
-                              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <img src="images/maquette.png" alt="" />
-              <di class="text">Maquette Site web</di>
-              <p>
-                Pour mes projets de site web, j'ai toujours commencé par faire une maquette du site, pour ensuite le présenter à mon
-                tuteur et essayé de me rapprocher le maximum lors de la réalisation du site.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- réalisation de la partie contact -->
-    <section class="contact" id="contact">
-      <div class="max-width">
-        <h2 class="title">Contact</h2>
-        <div class="contact-content">
-          <div class="column left">
-            <div class="text">Coordonnés</div>
+        </a>
+        <div class="card">
+          <div class="box">
+            <img src="images/KTCCAR.png" alt="" />
+            <div class="text">Application de Chat</div>
             <p>
-             Pour toutes questions ou informations supplémentaire voici mes coordonnées n'hésité pas à me contacter. 
+              J'ai réalisé une application de chat avec React Native qui utilise les données stockées dans Firebase.
             </p>
-            <div class="icons">
-                <div class="row">
-                    <i class="fas fa-user"></i>
-                    <div class="info">
-                        <div class="head">Nom, prénom</div>
-                        <div class="sub-title">Katirci Emre</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div class="info">
-                        <div class="head">Lieu</div>
-                        <div class="sub-title">Bourgoin-Jallieu</div>
-                    </div>
-                </div><div class="row">
-                    <i class="fas fa-envelope"></i>
-                    <div class="info">
-                        <div class="head">Adresse mail</div>
-                        <div class="sub-title">Emrektc70@gmail.com</div>
-                    </div>
-                </div>
-            </div>
-          </div> 
-          <div class="column right">
-              <div class="text">Me contacer</div>
-              <form action="https://formsubmit.co/emrektc70@gmail.com" method="POST">
-                  <div class="fields">
-                      <div class="field name">
-                          <input type="text" placeholder="Nom" required >
-                       </div>
-                       
-                        <div class="field email">
-                        <input type="email" placeholder="Email" required >
-                      </div>
-                      </div>
-                    <div class="field text">
-                        <input type="text" placeholder="Sujet" required >
-                    </div>
-                    <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Description" required ></textarea>
-                    </div>
-                    <div class="button">
-                        <button type="submit">Envoyer</button>
-                    </div>
-                 </form>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/logost.png" alt="" />
+            <div class="text">Simplydiag</div>
+            <p>
+              Pour ma deuxième année de stage, je devais réaliser un site web pour l'entreprise Formatop et j'ai réussi
+              à faire le site web demandé par mon tuteur, qui était développé avec Wordpress.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- page de bas section -->
-    <footer>
-      <span>Créer par <a href="https://www.linkedin.com/in/emre-katirci-b5608b1b4/">Emre Katirci</a>  |<span class="far fa-copyright"> </span> 2022</span>
-    </footer>
+    </div>
+  </section>
+  <!-- réalisation de la partie contact -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Coordonnées</div>
+          <p>
+            Si vous avez des questions ou besoin d'informations supplémentaires, n'hésitez pas à me contacter en
+            utilisant les
+            coordonnées ci-dessous. </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Nom, prénom</div>
+                <div class="sub-title">Katirci Emre</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Lieu</div>
+                <div class="sub-title">Bourgoin-Jallieu</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Adresse mail</div>
+                <div class="sub-title">Emrektc70@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">Envoyez un message</div>
+          <form action="https://formsubmit.co/emrektc70@gmail.com" method="POST">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Nom" required>
+              </div>
 
-    <script src="script.js"></script>
-    
-  </body>
+              <div class="field email">
+                <input type="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="field text">
+              <input type="text" placeholder="Sujet" required>
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Description" required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- page de bas section -->
+  <footer>
+    <span style="display: flex; justify-content: center">Créer par <a
+        href="https://www.linkedin.com/in/emre-katirci-b5608b1b4/">Emre Katirci</a> |<span class="far fa-copyright">
+      </span> 2023</span>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
 </html>
